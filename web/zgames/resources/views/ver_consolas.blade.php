@@ -12,11 +12,17 @@
                         <td>Acciones</td>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="tbody-consola">
 
                 </tbody>
             </table>
         </div>
     </div>
+
+@endsection
+
+@section("javascript")
+    <script src="{{asset('js/servicios/consolasService.js')}}"></script>
+    <script src="{{asset('js/ver_consolas.js')}}"></script>
 
 @endsection

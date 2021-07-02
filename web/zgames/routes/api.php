@@ -25,4 +25,4 @@ Route::get("consolas/get", [ConsolasController::class, "getConsolas"]);
 
 
 //TODO: Esto tiene que cambiar
-Route::get("consolas/post", [ConsolasController::class, "crearConsolas"]);
+Route::post("consolas/post", [ConsolasController::class, "crearConsola"]);
