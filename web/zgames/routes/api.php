@@ -26,3 +26,4 @@ Route::get("consolas/get", [ConsolasController::class, "getConsolas"]);
 
 //TODO: Esto tiene que cambiar
 Route::post("consolas/post", [ConsolasController::class, "crearConsola"]);
+Route::post("consolas/delete", [ConsolasController::class, "eliminarConsola"]);
